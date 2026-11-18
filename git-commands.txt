@@ -1,0 +1,11 @@
+git init
+git add README.md po design
+git commit -m "PO and Design"
+git branch -M main
+git remote add origin https://github.com/<ваш-ник>/team-project.git
+git push -u origin main
+
+git checkout -b dev
+git add dev
+git commit -m "Add weather page"
+git push -u origin dev
